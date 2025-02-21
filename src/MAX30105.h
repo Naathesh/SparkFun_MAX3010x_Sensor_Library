@@ -39,8 +39,9 @@
 #else
 
   //The catch-all default is 32
+  #ifndef T2C_BUFFER_LENGTH
   #define I2C_BUFFER_LENGTH 32
-
+  #endif
 #endif
 
 class MAX30105 {
